@@ -1,0 +1,21 @@
+{
+	"name"           : "peekaboo-theme",
+	"title"          : "Peekaboo Theme",
+	"description"    : "The best WordPress theme ever made!",
+	"version"        : "2.6",
+	"homepage"       : "http://population-2.com",
+	"author"         : {
+		"name" : "Population 2",
+		"email": "info@population-2.com",
+		"url"  : "http://population-2.com"
+	},
+	"devDependencies": {
+		"grunt"                 : "~0.4.1",
+		"matchdep"              : "~0.1.2",
+		"grunt-contrib-concat"  : "~0.1.2",
+		"grunt-contrib-watch"   : "~0.2.0",
+		"grunt-contrib-sass"    : "~0.7.3",
+		"grunt-contrib-compass" : "~1.0.1"
+	},
+	"keywords"       : []
+}
