@@ -71,11 +71,11 @@ $GLOBALS['comment'] = $comment; ?>
     <?php else : // This is displayed if there are no comments so far ?>
         <?php if (comments_open()) : ?>
         <?php else : // comments are closed ?>
-            <section id="comments">
+  <!-- JJC removing closed Comments 02-Aug-15		<section id="comments">
                 <div class="notice">
-                    <p class="bottom"><?php _e('Comments are closed.', 'peekaboo') ?></p>
+                    <p class="bottom"><?php //  _e('Comments are closed.', 'peekaboo') 					?></p>
                 </div>
-            </section>
+            </section>	-->
         <?php endif; ?>
     <?php endif; ?>
     <?php if (comments_open()) : ?>
